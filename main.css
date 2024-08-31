@@ -1,0 +1,60 @@
+body {
+    background: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Inter';
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    margin: 5% auto;
+}
+
+.card {
+    margin: 10px auto;
+    padding: 24px 16px;
+    width: 320px;
+    justify-content: center;
+    text-align: center;
+    background: hsl(0, 0%, 12%);
+    border-radius: 16px;
+}
+
+.bio img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.bio h2 {
+    font-weight: 700;
+}
+
+.bio p {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.intro {
+    padding: 4px;
+    font-weight: 400;
+}
+
+.social_links p {
+    background: hsl(0, 0%, 20%);
+    padding: 12px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.social_links p:hover,
+.social_links p:active {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
